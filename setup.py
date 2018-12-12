@@ -11,6 +11,7 @@ setup(
     url='https://github.com/allanlei/python-zipstream',
     packages=find_packages(exclude=['tests']),
     keywords='zip streaming',
+    install_requires=['zipencrypt'],
     test_suite='nose.collector',
     tests_require=['nose'],
 )
